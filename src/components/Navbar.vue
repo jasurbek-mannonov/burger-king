@@ -3,20 +3,31 @@
 </script>
 
 <template>
-    <div class="d-flex text-red-900 bg-white m-auto">
-       <div>
-            <h3 class="font-normal text-[45.221px]">Burger</h3>
-       </div>
-       <div>
-            <ul>
-                <li>Home</li>
-                <li>Burger</li>
-                <li>Map</li>
-                <li>About</li>
-            </ul>
-       </div>
-       <button class="bg-red-900 text-white">
-            Order
-       </button>
-    </div>
+  <div class="pt-[37px] w-[1002px] m-auto">
+    <header class="text-red-900 hidden md:block">
+        <div class="bg-white container mx-auto h-14 flex items-center rounded-full p-5">
+            <a href="" class="flex items-center justify-center">
+                <h1 class="text-[45px]">Burger</h1>
+            </a>
+            <nav class="contents font-semibold text-base lg:text-lg">
+                <ul class="mx-auto flex items-center">
+                    <li class="p-5 xl:p-5 font-medium text-[20px] font-'Plus Jakarta Sans' active">
+                        Home
+                    </li>
+                    <li class="p-5 xl:p-5 font-medium text-[20px] font-'Plus Jakarta Sans'">
+                        Burger
+                    </li>
+                    <li class="p-5 xl:p-5 font-medium text-[20px] font-'Plus Jakarta Sans'">
+                        Map
+                    </li>
+                    <li class="p-5 xl:p-5 font-medium text-[20px] font-'Plus Jakarta Sans'">
+                        About
+                    </li>
+                </ul>
+            </nav>
+            <button class="border-none bg-red-900 rounded-full px-8 py-2 text-white font-medium text-[20px] outline-none focus:outline-none">Order</button>
+        </div>
+    </header>
+</div>
+
 </template>
