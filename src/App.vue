@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar.vue";
 <template>
  <div class="bg-red-900 h-[100vh]">
     <Navbar/>
-    <div class="container mx-auto">
+    <div class="container-xl mx-auto">
        <Hero/>
     </div>
  </div>
